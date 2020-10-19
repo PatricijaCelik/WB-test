@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Hello {{name}}!</p>
+
+    {% block content %}
+        <p>This is the content.</p>
+    {% endblock content %}
+
+    <ul>
+        <li>
+            <a href="/">Main page</a>
+        </li>
+        <li>
+            <a href="/about">About me</a>
+        </li>
+    </ul>
+
+</body>
+</html>
